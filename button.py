@@ -1,9 +1,8 @@
 from aiogram.types import ReplyKeyboardMarkup,KeyboardButton
 
-
-qwerty=ReplyKeyboardMarkup(
+menu=ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="O'zbekiston") , KeyboardButton(text="Xorazm") , KeyboardButton(text="BMW")],
+        [KeyboardButton(text='Ish Kerak'),KeyboardButton(text='SHerik Kerak')],[KeyboardButton(text='Hodim  Kerak')],[KeyboardButton(text='Ustoz Kerak')],[KeyboardButton(text='SHogrt  Kerak')],
     ],
     resize_keyboard=True
 )
